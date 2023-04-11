@@ -1,0 +1,23 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.room {
+    display: flex;
+    align-items: center;
+  
+}
+
+.checked {
+    color: green;
+    text-decoration: line-through;
+}
+
+.unchecked {
+    color: red;
+}
