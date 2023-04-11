@@ -9,7 +9,7 @@ const RoomElement = roomData.map((room)=> <Room key={nanoid()} number={room.numb
 
 
   return (
-    <div className="App">
+    <div className="app">
      {RoomElement}
     </div>
   )

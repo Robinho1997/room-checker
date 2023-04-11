@@ -1,23 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    display: flex;
+   background-color: black;
+  padding: 10px;
+  font-family: 'Russo One', sans-serif;
+ 
+}
+
+.app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,100px);
     justify-content: center;
-    
+    gap: 5px;
+
+ 
 }
 
 .room {
-    display: flex;
-    align-items: center;
-  
+  display: flex;
+  border: 1px solid ;
+  justify-content: center;
+  align-items: center;
 }
 
 .checked {
-    color: green;
+    background-color: greenyellow;
     text-decoration: line-through;
 }
 
 .unchecked {
-    color: red;
+    background-color: rgb(239, 25, 25);
+}
+
+.checkbox {
+   background-color: aliceblue;
 }
